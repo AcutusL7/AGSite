@@ -1,0 +1,126 @@
+.container{
+overflow: hidden;
+padding:0;
+margin: auto;
+width: 60%;
+float: center;
+}
+#mainMenu{
+text-align: center;
+padding-right:10px;
+margin: auto;
+width: 60%;
+float: center;
+background-color: transparent;
+overflow:hidden;
+}
+#mainMenu > li{
+font-size: 25px;
+font-family: Arial;
+display: inline;
+list-style-type: none;
+margin: 25px;
+}
+#mainMenu > a{
+display: inline-block;
+}
+#siteTop{
+margin: auto;
+width: 100%;
+}
+#main{
+float: center;
+text-align: center;
+margin: auto;
+padding: 10px;
+background-color: rgba(255,255,255, 0.3);
+font: 20px sans-serif;
+}
+#Bottom{
+position: relative;
+text-align: center;
+margin: auto;
+overflow:auto;
+
+background-color: rgba(255,255,255, 0.3);
+margin-top:50px;
+font: 22px sans-serif;
+
+}
+#contactDiv{
+position:relative;
+float: left;
+width: auto;
+list-style-type: none;
+overflow: auto;
+}
+#contactUL{
+text-align: center;
+padding: 10px;
+}
+#contactUL > li{
+padding: 10px;
+}
+li#contactLI{
+font: bold 30px sans-serif;
+}
+#followDiv{
+position: relative;
+overflow: auto;
+float: center;
+width: auto;
+margin-top: 5px;
+list-style-type: none;
+text-align: center;
+
+}
+#followUL > li{
+padding: 10px;
+list-style-type: none; 
+
+}
+li#followLI{
+font: bold 30px sans-serif;
+}
+a{
+	border-radius: 30px;
+}
+a:link, a:visited {
+    background-color: #4F91CD;
+	/*background-color: #8f3e0f; */
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+background-color: #79bcf7;
+color: white;
+text-decoration: underline;
+}
+a:visited{
+text-decoration: none;
+}
+h1{
+text-align: center;
+font-size: 40px;
+}
+body{
+	/*This is what makes the background fit to the screen size*/
+	background-image: url("farmBackground.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	position: absolute;
+
+	
+}
+body > image{
+    background-position: right top;
+  margin-left: 200px;
+
+ 
+	
+}
+
