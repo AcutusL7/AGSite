@@ -1,0 +1,296 @@
+body{
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #dbdbdb;
+}
+/*Global*/
+/*When using a class you use a . when using an ID you use a #*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.button1{
+   height: 38px;
+   background: #c95a24;
+   border: 0;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #ffffff;
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*Header*/
+header{
+  background-color: #35424A;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #c95a24 3px solid;
+}
+/*Handles the brand image at the top */
+header img{
+  /*Allows the image to scale*/
+  width: 100%;
+  height: auto;
+}
+header #branding{
+overflow: hidden;
+padding:0;
+margin: auto;
+width: 60%;
+float: center;
+}
+header #branding h1{
+  margin: 0;
+}
+/*Handles the top nav list */
+header a, header.dropbtn{
+  color: #ffffff;
+  font-family: 'Crimson Text', serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header li{
+  display: inline-block;
+  /*Padding order top right bottom left */
+  padding: 0 50px 0 50px;
+}
+header #main-menu{
+  /*Centers the menu under the logo*/
+/*width: 100%;
+margin: auto;
+text-align: center;
+float: none;
+font-size: 30px;*/
+position:relative;
+		top:0;
+		left:0;
+		z-index:9999;
+		width:auto;
+}
+header #main-menu ul{
+  width: 12em;
+}
+
+header nav{
+  float: none;
+  margin-top: 20px;
+}
+ header .highlight, header .current a{
+  color: #c95a24;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+/*Dropdown Menu specific */
+header li.dropdown{
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+    position: absolute;
+    background-color: #C95A24;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #35424A;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Showcase*/
+#showcase{
+  min-height: auto;
+  /*To go out of the css folder the .. is required*/
+  background:url('../img/sideshowBackground2.png') no-repeat /* 0 is the x axis, -800 is the y*/0 -600px;
+  background-size: 100;
+  text-align: center;
+  color: #000000;
+  border-bottom: 10px solid  #35424A
+  width: 100%;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+}
+/*Newsletter*/
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #35424A;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+/*Boxes*/
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img{
+  width: 90px;
+}
+/*Sidebar*/
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/*Index Page specific*/
+section#mainPageMain{
+  border-bottom: 10px solid  #35424A;
+  font-family: 'Crimson Text', serif;
+
+}
+p#mainBody{
+  font-size: 20px;
+  line-height: 1.5;:
+}
+h1.page-title{
+  /*Center the title on the index page article */
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+article#main-col h4, article#main-col p{
+  display: inline;
+}
+article#main-col{
+  float: left;
+  width: 60%;
+  margin-top: 10px;
+}
+article#main-col h4{
+  font-size: 30px;
+  font-weight: bold;
+}
+/*About Page specific*/
+p#aboutBolded{
+  font-weight: bold;
+  font-size: 20px;
+}
+/*Product page specific */
+article#flour-col{
+  float: left;
+  width: 60%;
+  margin-top: 10px;
+}
+aside#grain-col{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+h1.list-heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+article h1.list-heading{
+  margin-left: 10px;
+}
+ul#flourMenu{
+  float: left;
+  width:  60%;
+  margin-left: 10px;
+}
+ul#flourMenu a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+ul#flourMenu a:hover{
+  color: #c95a24;
+  font-weight: bold;
+}
+ul#grainMenu a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+ul#grainMenu a:hover{
+  color: #c95a24;
+  font-weight: bold;
+}
+
+/*Footer*/
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #c95a24;
+  text-align: center;
+}
+footer a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+footer#mainFooter{
+  margin-top: 0px;
+
+}
+footer #bottomMenu{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  float: none;
+}
+footer a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+footer li{
+  display: inline-block;
+  /*Padding order top right bottom left */
+  padding: 0 50px 0 50px;
+}

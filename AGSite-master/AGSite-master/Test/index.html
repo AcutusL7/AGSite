@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--This sets the view to be the same width as the users device-->
+    <meta name="viewport" content="width=device.width">
+    <!--This is for SEO-->
+    <meta name="description" content="Gluten Free Milling">
+    <meta name="keywords" content="gluten free milling">
+    <meta name="author" content ="Sean Legge">
+    <title>QUeen Milling | Welcome</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Fjalla+One" rel="stylesheet">
+    <!--Linking js-->
+    <script src="./script/main.js"></script>
+    <!--JQuery-->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery-loader.js"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="../jquery.smartmenus.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--CSS for dropdown menu-->
+    <link href="./css/sm-core-css.css" rel="stylesheet" type="text/css" />
+    <!-- SmartMenus jQuery init -->
+<script type="text/javascript">
+	$(function() {
+		$('#main-menu').smartmenus({
+			mainMenuSubOffsetX: 1,
+			subMenusSubOffsetX: -8,
+			subMenusSubOffsetY: 0
+		});
+	});
+</script>
+
+  </head>
+  <body>
+      <header>
+        <div class="container">
+            <div id="branding">
+              <img src="./img/newlogo.png"></img>
+            </div>
+        </div>
+        <div class="container">
+          <nav>
+            <ul id="main-menu" class="sm sm-simple">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Products</a>
+                <!--Start of product sub menu-->
+                <ul>
+                  <li><a href="#">Flours</a>
+                    <!--Start of Flours sub-menu-->
+                    <ul>
+                    <li><a href="#">Long Grain Rice Flour</a></li>
+                    </ul>
+                    <!--End of Flours sub-menu-->
+                  </li>
+
+                  <li><a href="#">Grains</a>
+                    <!--Start of Grains sub-menu-->
+                    <ul>
+                    <li><a href="#">Long grain rice</a></li>
+                    </ul>
+                    <!--End of Grains sub-menu-->
+                  </li>
+                </ul>
+                <!--End of Products sub-menu-->
+              </li>
+              <li><a href="#">Contact Us </a></li>
+            </ul>
+            <!--End of main menu-->
+          </nav>
+        </div>
+      </header>
+      <!--<section id="showcase">
+        <div class="container">
+          <h1>Queen Milling is an industry leader in the gluten-free market segment.</h1>
+          <p>Our services include milling, custom blending, co-packaging and private labeling.</p>
+        </div>
+      </section>-->
+      <section id="mainPageMain">
+        <div class="container">
+          <article id="main-col">
+            <h1 class="page-title">Welcome to QUeen Milling</h1>
+            <p id="mainBody">QUeen Milling specializes in manufacturing gluten-free flours. Our services include milling, custom blending,
+              co-packaging and private labeling.</p></br></br></br>
+              <h4>Our Vision: </h4> <p id="mainBody">To be a world-class producer of gluten-free flours. </p></br></br></br>
+              <h4>Our Mission:</h4> <p id="mainBody">We are committed to provide superior products and services through a process-driven work environment.
+                We continually strive to exceed customer expectations.</p></br></br></br>
+              <p id="mainBody">QUeen Milling manufactures various types of rice flour and gluten-free alternatives. Organic gluten-free flours are available as well.</p>
+          </article>
+          <aside id="sidebar">
+            <div class="dark">
+            <p>
+              <h3>Taste:</h3>
+              <p>QUeen Milling only uses premium ingredients.</p>
+              <p>
+              Quality, repeatability, and flavour are the key attributes in all our finished products. Our commitment to quality provides our customers with superior products.
+              QUeen Milling understands that it takes a combination of sensations and attentions to make the best in taste. We are driven to provide this in every step of our processes, in every taste and texture combination we produce.
+            </p>
+            <h3>Science:</h3>
+            <p>
+              Our laboratory integrates science into our processes to ensure that we produce top quality products. We manufacture goods to customer specifications in a process-driven work environment. The QUeen Milling Statement of Guarantee provides our customers with a quality assurance guarantee that all goods produced meet or exceed industry standards.
+            <p>
+              Our Quality team provides extensive physical, organoleptic, and analytical testing to ensure your satisfaction.
+            </p>
+              <h3>Experience:</h3>
+            <p>
+              QUeen Milling is an international food manufacturing company with extensive knowledge and experience in the food industry. We specialize in gluten-free flours and the development of new gluten-free alternatives. As a company, we are committed to expansion in global markets through investments in our people and technology.            </div>
+            </p>
+          </aside>
+        </div>
+      </section>
+      <section id="boxes">
+        <div class="container">
+          <div class="box">
+            <img src="./img/logo_html.png">
+            <h3>Milling</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis dignissim dui nec ultrices.</p>
+          </div>
+          <div class="box">
+            <img src="./img/logo_css.png">
+            <h3>Grains</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis dignissim dui nec ultrices.</p>
+          </div>
+          <div class="box">
+            <img src="./img/logo_brush.png">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis dignissim dui nec ultrices.</p>
+          </div>
+        </div>
+      </section>
+      <section id="newsletter">
+        <div class="container">
+          <h1>Subscribe to our newsletter</h1>
+          <form>
+            <input type="email" placeholder="Enter Email...">
+            <button type="submit" class="button1">Subscribe</button>
+          </form>
+        </div>
+      </section>
+      <footer id="mainFooter">
+      <p>All rights reserved.Copyright &copy; QUeen Milling</p>
+      </footer>
+  </body>
+</html>
